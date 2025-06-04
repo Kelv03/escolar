@@ -17,7 +17,7 @@ require('dotenv/config');
 
 mongoose.connect('mongodb+srv://bkgr:kt0z1KPZRgypHZCA@cluster0.ed1695b.mongodb.net/kelibin?retryWrites=true&w=majority&appName=Cluster0')
 .then(() => console.log('Conexão com o MongoDB estabelecida com sucesso!'))
-.catch(err => console.error('Erro ao conectar ao MongoDB:', err));
+.catch(err => console.error('Erro ao conectar ao MongoDB2:', err));
 
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
