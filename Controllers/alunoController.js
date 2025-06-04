@@ -168,7 +168,6 @@ exports.editarAluno = async (req, res) => {
     }
 };
 
-// Função para excluir aluno (rota GET /alunos/excluir/:id)
 exports.excluirAluno = async (req, res) => {
     try {
         await Aluno.findByIdAndDelete(req.params.id);
